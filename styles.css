@@ -1,8 +1,9 @@
 /*  your css code here. If applicable */
-/* .square {
+.square {
     height: 20px;
     width: 20px;
-} */
+    background: rgb(29, 29, 29);
+}
 
 * {
     background-color: #1a032f;
@@ -11,7 +12,9 @@
 }
 .container {
     padding: 20px;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
+
 }

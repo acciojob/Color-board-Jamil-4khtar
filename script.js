@@ -7,7 +7,7 @@ let container = document.querySelectorAll(".container");
 for (let i = 0; i < 800; i++) {
     let box = document.createElement("div");
     container[0].append(box);
-    box.style.cssText = "height: 20px; width: 20px;"
+    // box.style.cssText = "height: 20px; width: 20px;";
     box.className = "square"
 }
 let square = document.querySelectorAll(".square");
